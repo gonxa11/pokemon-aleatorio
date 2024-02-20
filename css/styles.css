@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-player, .pokemon-ia{
+  margin-top: 20px;
+  box-shadow: 0 0 5px rgba( 0 , 0, 0, 0.8 );
+  border-radius: 20px;
+  padding: 30px;
+  margin-left: 20px;
+  width: 80%;
+  
+}
+
+.type {
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
+  float: left;
+  width: 50%;
+  background: url(https://sg.portal-pokemon.com/play/resources/pokedex/img/pokemon_circle_bg.png) no-repeat;
+  background: url(https://sg.portal-pokemon.com/play/resources/pokedex/img/pokemon_bg.png) no-repeat;
+  background-size: 100%;
+}
+
+.txt {
+  width: 50%;
+  margin-top: 15%;
+  height: auto;
+  float: right;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2{
+  text-align: center;
+}
+
